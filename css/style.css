@@ -1,0 +1,78 @@
+body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Anaheim', arial, sans-serif;
+        text-align: center; 
+    }
+    h1{
+        font-size: 30px;
+
+    }
+    p{
+        font-size: 18px;
+    }
+   .eachPhoto{
+       float:left;
+       width:100px;
+       height: 100px;
+       margin: 10px;
+   } 
+   #gallery{
+       margin: auto;
+       margin-top: 0px;
+       height: 433px;
+       width: 724px;
+       overflow:hidden;
+   }
+   #loader-back{
+       display: none;
+       z-index: 9999px;
+       position: absolute;
+       float: left;
+       margin-left: 27px;
+        height: 150px; 
+        width: 616px;
+      background: url("images/prettyGallery/loader-back.png") repeat; 
+       padding-top: 100px;
+       padding-left: 50px;
+   }
+   
+   #next-bar{ 
+       border-left: 1px solid #eee;
+      float: left;
+      width: 24px;
+       height: 250px;  
+   }
+   #next{
+       margin-top: 100px;
+       cursor: pointer;
+       width: 24px;
+       height: 43px;
+       background: url("../images/prettyGallery/arrow-next1.png") no-repeat;
+   }
+   #prev{
+       margin-top: 100px;
+       cursor: pointer;
+       width: 24px;
+       height: 43px;
+       background: url("../images/prettyGallery/arrow-prev1.png") no-repeat;
+   }
+   #prev-bar{
+      border-right: 1px solid #eee; 
+      float: left;
+      width: 24px;
+       height: 250px;  
+   }
+   #thumbs{ 
+       float: left;
+        height: 240px; 
+        width: 628px;
+        overflow: hidden; 
+        
+       
+        margin-top: 5px;
+   }
+   #thumbs li{
+      display: inline; 
+   }
+   
